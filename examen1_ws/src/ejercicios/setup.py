@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'request_client = ejercicios.request_client:main',
             'request_service = ejercicios.request_service:main',
+            'pub_ejer1 = ejercicios.pub_ejer1:main',
         ],
     },
 )

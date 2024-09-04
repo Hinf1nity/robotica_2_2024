@@ -8,7 +8,7 @@ class MinimalService(Node):
 
     def __init__(self, ip):
         super().__init__('minimal_service')
-        self.srv =  self.create_service(StringService, 'change_led', self.change_state_callback)
+        self.srv =  self.create_service(StringService, 'DiegoC_service', self.change_state_callback)
         self.ip = ip
 
     def change_state_callback(self, req, res):
