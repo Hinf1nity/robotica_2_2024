@@ -17,13 +17,13 @@ class MinimalService(Node):
 
     def add_numbers_callback(self, req, res):
         Tf = self.M_simplified.subs(
-            {self.th1: req.th1, self.th2: req.th2, self.th3: req.th3, self.L1: req.l1, self.L2: req.l2})
+            {self.th1: req.angulos[0], self.th2: req.angulos[1], self.th3: req.angulos[2], self.L1: req.l1, self.L2: req.l2})
         res.x = float(Tf[0])
         res.y = float(Tf[1])
         res.z = float(Tf[2])
 
         self.get_logger().info('Incoming request\nth1: %f th2: %f th3: %f l1: %f l2: %f' %
-                               (req.th1, req.th2, req.th3, req.l1, req.l2))
+                               (req.angulos[0], req.angulos[1], req.angulos[2], req.l1, req.l2))
 
         return res
 

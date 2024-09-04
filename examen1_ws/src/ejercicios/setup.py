@@ -23,6 +23,8 @@ setup(
             'request_client = ejercicios.request_client:main',
             'request_service = ejercicios.request_service:main',
             'pub_ejer1 = ejercicios.pub_ejer1:main',
+            'service_ejer2 = ejercicios.angulo_service:main',
+            'client_ejer2 = ejercicios.angulo_client_py:main',
         ],
     },
 )
