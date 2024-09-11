@@ -15,7 +15,7 @@ class MinimalClientAsync(Node):
         self.req = GetPosition.Request()
 
     def send_request(self, d=69.5, e=71.5):
-        self.angulos = [20., 45., 10.]
+        self.angulos = [0., 0., 0.]
         self.req.angulos = self.angulos
         self.req.l1 = d
         self.req.l2 = e

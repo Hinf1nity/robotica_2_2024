@@ -6,8 +6,8 @@ from machine import Pin
 led = Pin(2, Pin.OUT)  # El LED integrado en muchas ESP32 está en el pin 2
 
 # Conectar a la red Wi-Fi
-ssid = 'Sword Coast'  # Reemplaza con el nombre de tu red Wi-Fi
-password = 'Faerun_81'  # Reemplaza con tu contraseña de red
+ssid = 'diego' # Reemplaza con el nombre de tu red Wi-Fi
+password = '12345678'  # Reemplaza con tu contraseña de red
 
 def conectar_wifi():
     wlan = network.WLAN(network.STA_IF)

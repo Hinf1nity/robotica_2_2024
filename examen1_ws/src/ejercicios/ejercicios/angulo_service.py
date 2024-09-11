@@ -8,7 +8,7 @@ from rclpy.node import Node
 class MinimalService(Node):
 
     def __init__(self):
-        super().__init__('minimal_service')
+        super().__init__('service_ejer2')
         self.srv = self.create_service(
             GetPosition, 'add_thee_ints', self.add_numbers_callback)
         self.th1, self.th2, self.th3, self.L1, self.L2 = sp.symbols(
@@ -17,7 +17,7 @@ class MinimalService(Node):
 
     def add_numbers_callback(self, req, res):
         Tf = self.M_simplified.subs(
-            {self.th1: req.angulos[0], self.th2: req.angulos[1], self.th3: req.angulos[2], self.L1: req.l1, self.L2: req.l2})
+            {self.th1: req.angulos[0]*(3.14159/180), self.th2: req.angulos[1]*(3.14159/180), self.th3: req.angulos[2]*(3.14159/180), self.L1: req.l1, self.L2: req.l2})
         res.x = float(Tf[0])
         res.y = float(Tf[1])
         res.z = float(Tf[2])
