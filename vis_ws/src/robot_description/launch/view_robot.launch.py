@@ -17,7 +17,7 @@ def generate_launch_description():
     launch method
     """
     urdf_tutorial_path = get_package_share_path('robot_description')
-    default_model_path = urdf_tutorial_path / 'urdf/pantilt.urdf'
+    default_model_path = urdf_tutorial_path / 'urdf/panda.urdf'
     default_rviz_config_path = urdf_tutorial_path / 'rviz/urdf.rviz'
 
     gui_arg = DeclareLaunchArgument(name='gui', default_value='true', choices=['true', 'false'],

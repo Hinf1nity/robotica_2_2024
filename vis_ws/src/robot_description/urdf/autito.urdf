@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="autito">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.3 0.2"/>
+        <origin rpy="0 0 0" xyz="0 0 0.3"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.1"/>
+      </geometry>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.1"/>
+      </geometry>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_wheel" type="revolute">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 -0.20 -0.1"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="300" velocity="0.1" lower="-3.1416" upper="3.1416"/>
+  </joint>
+
+  <joint name="base_to_left_wheel" type="revolute">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0.20 -0.1"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="300" velocity="0.1" lower="-3.1416" upper="3.1416"/>
+  </joint>
+</robot>
