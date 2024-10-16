@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = '4to_ejercicio'
+package_name = 'ejercicio4'
 
 setup(
     name=package_name,
