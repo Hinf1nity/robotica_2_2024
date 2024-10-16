@@ -1,0 +1,10 @@
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/uninstall.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/ejercicio1_uninstall.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/joint_sequence.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/test.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/edit_cache.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/rebuild_cache.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/list_install_components.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/install.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/install/local.dir
+/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio1/CMakeFiles/install/strip.dir

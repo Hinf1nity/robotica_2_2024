@@ -1,0 +1,90 @@
+[0.052s] Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake /home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2 -DCMAKE_INSTALL_PREFIX=/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2
+[0.434s] -- The C compiler identification is GNU 11.4.0
+[1.652s] -- The CXX compiler identification is GNU 11.4.0
+[2.563s] -- Detecting C compiler ABI info
+[2.799s] -- Detecting C compiler ABI info - done
+[2.805s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.805s] -- Detecting C compile features
+[2.806s] -- Detecting C compile features - done
+[2.808s] -- Detecting CXX compiler ABI info
+[3.064s] -- Detecting CXX compiler ABI info - done
+[3.069s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.070s] -- Detecting CXX compile features
+[3.070s] -- Detecting CXX compile features - done
+[3.073s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.317s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.598s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.606s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.621s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.942s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.967s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.035s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.039s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.039s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.128s] -- Found Threads: TRUE  
+[11.206s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[11.239s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[12.703s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[12.906s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.906s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.764s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[17.820s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[17.850s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[17.890s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.966s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/include>
+[17.966s] -- Configured cppcheck exclude dirs and/or files: 
+[17.967s] -- Added test 'lint_cmake' to check CMake code style
+[17.967s] -- Added test 'uncrustify' to check C / C++ code style
+[17.967s] -- Configured uncrustify additional arguments: 
+[17.968s] -- Added test 'xmllint' to check XML markup files
+[17.969s] -- Configuring done
+[17.997s] -- Generating done
+[17.999s] -- Build files have been written to: /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2
+[18.016s] Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake /home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2 -DCMAKE_INSTALL_PREFIX=/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2
+[18.020s] Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2 -- -j12 -l12
+[18.051s] [ 50%] [32mBuilding CXX object CMakeFiles/movements.dir/src/movements.cpp.o[0m
+[25.088s] [01m[K/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/src/movements.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[25.088s] [01m[K/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/src/movements.cpp:45:96:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.089s]    45 |       bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[25.089s]       |                                                                                                [01;35m[K^~~~~~~[m[K
+[25.089s] In file included from [01m[K/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/src/movements.cpp:4[m[K:
+[25.089s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.089s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[25.089s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.089s] [01m[K/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/src/movements.cpp:64:100:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.089s]    64 |       bool success = (move_group.plan(second_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[25.089s]       |                                                                                                    [01;35m[K^~~~~~~[m[K
+[25.089s] In file included from [01m[K/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio2/src/movements.cpp:4[m[K:
+[25.089s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.089s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[25.089s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.218s] [100%] [32m[1mLinking CXX executable movements[0m
+[29.824s] [100%] Built target movements
+[29.856s] Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2 -- -j12 -l12
+[29.889s] Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2
+[29.897s] -- Install configuration: ""
+[29.897s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/lib/ejercicio2/movements
+[29.898s] -- Set runtime path of "/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/lib/ejercicio2/movements" to ""
+[29.899s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ament_index/resource_index/package_run_dependencies/ejercicio2
+[29.899s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ament_index/resource_index/parent_prefix_path/ejercicio2
+[29.899s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/environment/ament_prefix_path.sh
+[29.899s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/environment/ament_prefix_path.dsv
+[29.900s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/environment/path.sh
+[29.900s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/environment/path.dsv
+[29.901s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/local_setup.bash
+[29.901s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/local_setup.sh
+[29.901s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/local_setup.zsh
+[29.901s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/local_setup.dsv
+[29.901s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/package.dsv
+[29.902s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ament_index/resource_index/packages/ejercicio2
+[29.902s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/cmake/ejercicio2Config.cmake
+[29.903s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/cmake/ejercicio2Config-version.cmake
+[29.903s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio2/share/ejercicio2/package.xml
+[29.907s] Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/integralmilk03/robotica/robotica_2_2024/examen2_ws/install/ejercicio4:/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio2

@@ -1,0 +1,15 @@
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/package_run_dependencies/ejercicio3
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/parent_prefix_path/ejercicio3
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/ament_prefix_path.sh
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/ament_prefix_path.dsv
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/path.sh
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/path.dsv
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.bash
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.sh
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.zsh
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.dsv
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/package.dsv
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/packages/ejercicio3
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/cmake/ejercicio3Config.cmake
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/cmake/ejercicio3Config-version.cmake
+/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/package.xml

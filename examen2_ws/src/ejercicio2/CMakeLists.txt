@@ -7,9 +7,29 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometric_shapes REQUIRED)
+find_package(shape_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+add_executable(movements src/movements.cpp)
+target_include_directories(movements PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+target_compile_features(movements PUBLIC c_std_99 cxx_std_17)
+ament_target_dependencies(
+  movements
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  geometric_shapes
+  shape_msgs
+)
+
+install(TARGETS movements
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

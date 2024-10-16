@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_sequence[0m
+[100%] Built target joint_sequence
+-- Install configuration: ""
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/lib/ejercicio1/joint_sequence
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ament_index/resource_index/package_run_dependencies/ejercicio1
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ament_index/resource_index/parent_prefix_path/ejercicio1
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/environment/path.sh
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/environment/path.dsv
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/local_setup.bash
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/local_setup.sh
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/local_setup.zsh
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/local_setup.dsv
+-- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/package.dsv
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ament_index/resource_index/packages/ejercicio1
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/cmake/ejercicio1Config.cmake
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/cmake/ejercicio1Config-version.cmake
+-- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio1/share/ejercicio1/package.xml
