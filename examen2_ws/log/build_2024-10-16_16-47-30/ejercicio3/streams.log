@@ -1,0 +1,50 @@
+[0.035s] Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3 -- -j12 -l12
+[0.205s] Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3 -- -j12 -l12
+[0.228s] Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3
+[0.235s] -- Install configuration: ""
+[0.236s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/launch
+[0.237s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/launch/view_robot.py
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/urdf
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/urdf/panda.urdf
+[0.238s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/urdf/ejercicio3.urdf
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/rviz
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/rviz/urdf.rviz
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link2.obj
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link7.obj
+[0.238s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/hand.obj
+[0.239s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link4.obj
+[0.239s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/finger.obj
+[0.239s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link1.obj
+[0.240s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link5.obj
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link0.obj
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link6.obj
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/collision/link3.obj
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link1.dae
+[0.245s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link4.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link6.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link7.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link0.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/finger.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link2.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/hand.dae
+[0.246s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link5.dae
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/meshes/visual/link3.dae
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/package_run_dependencies/ejercicio3
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/parent_prefix_path/ejercicio3
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/ament_prefix_path.sh
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/path.sh
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/environment/path.dsv
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.bash
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.sh
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.zsh
+[0.247s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/local_setup.dsv
+[0.248s] -- Installing: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/package.dsv
+[0.248s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ament_index/resource_index/packages/ejercicio3
+[0.248s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/cmake/ejercicio3Config.cmake
+[0.248s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/cmake/ejercicio3Config-version.cmake
+[0.248s] -- Up-to-date: /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio3/share/ejercicio3/package.xml
+[0.262s] Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3

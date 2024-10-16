@@ -1,0 +1,89 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"first_leg_art" [label="first_leg_art"];
+"first_leg_base" [label="first_leg_base"];
+"first_leg_medium" [label="first_leg_medium"];
+"first_leg_medium_circle" [label="first_leg_medium_circle"];
+"first_leg_medium_art" [label="first_leg_medium_art"];
+"first_leg_top_circle" [label="first_leg_top_circle"];
+"first_leg_top_art" [label="first_leg_top_art"];
+"fourth_leg_art" [label="fourth_leg_art"];
+"fourth_leg_base" [label="fourth_leg_base"];
+"fourth_leg_medium" [label="fourth_leg_medium"];
+"fourth_leg_medium_circle" [label="fourth_leg_medium_circle"];
+"fourth_leg_medium_art" [label="fourth_leg_medium_art"];
+"fourth_leg_top_circle" [label="fourth_leg_top_circle"];
+"fourth_leg_top_art" [label="fourth_leg_top_art"];
+"second_leg_art" [label="second_leg_art"];
+"second_leg_base" [label="second_leg_base"];
+"second_leg_medium" [label="second_leg_medium"];
+"second_leg_medium_circle" [label="second_leg_medium_circle"];
+"second_leg_medium_art" [label="second_leg_medium_art"];
+"second_leg_top_circle" [label="second_leg_top_circle"];
+"second_leg_top_art" [label="second_leg_top_art"];
+"third_leg_art" [label="third_leg_art"];
+"third_leg_base" [label="third_leg_base"];
+"third_leg_medium" [label="third_leg_medium"];
+"third_leg_medium_circle" [label="third_leg_medium_circle"];
+"third_leg_medium_art" [label="third_leg_medium_art"];
+"third_leg_top_circle" [label="third_leg_top_circle"];
+"third_leg_top_art" [label="third_leg_top_art"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "art_base_joint" [label="xyz: 0 0.115 0.055 \nrpy: 0 -0 0"]
+"art_base_joint" -> "first_leg_art"
+"first_leg_art" -> "art_base_leg_joint" [label="xyz: 0 0.05 -0.01 \nrpy: 0 -0 0"]
+"art_base_leg_joint" -> "first_leg_base"
+"first_leg_base" -> "medium_base_joint_fixed" [label="xyz: 0 0.05 0.0252 \nrpy: 0 -0 0"]
+"medium_base_joint_fixed" -> "first_leg_medium"
+"first_leg_medium" -> "medium_base_joint" [label="xyz: 0.03 0 0.02 \nrpy: 0 1.5708 -0"]
+"medium_base_joint" -> "first_leg_medium_circle"
+"first_leg_medium_circle" -> "medium_base_art_joint" [label="xyz: -0.07 0 0.015 \nrpy: 0 1.5708 -0"]
+"medium_base_art_joint" -> "first_leg_medium_art"
+"first_leg_medium_art" -> "top_medium_circle_joint" [label="xyz: 0.015 0 -0.055 \nrpy: 0 1.5708 -0"]
+"top_medium_circle_joint" -> "first_leg_top_circle"
+"first_leg_top_circle" -> "top_medium_art_joint" [label="xyz: 0.1 0 0.015 \nrpy: 0 1.5708 -0"]
+"top_medium_art_joint" -> "first_leg_top_art"
+"base_link" -> "fourth_art_base_joint" [label="xyz: -0.115 0 0.055 \nrpy: 0 -0 0"]
+"fourth_art_base_joint" -> "fourth_leg_art"
+"fourth_leg_art" -> "fourth_art_base_leg_joint" [label="xyz: -0.05 0 -0.01 \nrpy: 0 -0 0"]
+"fourth_art_base_leg_joint" -> "fourth_leg_base"
+"fourth_leg_base" -> "fourth_medium_base_joint_fixed" [label="xyz: -0.05 0 0.0252 \nrpy: 0 -0 0"]
+"fourth_medium_base_joint_fixed" -> "fourth_leg_medium"
+"fourth_leg_medium" -> "fourth_medium_base_joint" [label="xyz: 0 -0.03 0.02 \nrpy: 1.5708 -0 0"]
+"fourth_medium_base_joint" -> "fourth_leg_medium_circle"
+"fourth_leg_medium_circle" -> "fourth_medium_base_art_joint" [label="xyz: 0 0.07 0.015 \nrpy: 1.5708 -0 0"]
+"fourth_medium_base_art_joint" -> "fourth_leg_medium_art"
+"fourth_leg_medium_art" -> "fourth_top_medium_circle_joint" [label="xyz: 0 -0.015 -0.055 \nrpy: 1.5708 -0 0"]
+"fourth_top_medium_circle_joint" -> "fourth_leg_top_circle"
+"fourth_leg_top_circle" -> "fourth_top_medium_art_joint" [label="xyz: 0 -0.1 0.015 \nrpy: 1.5708 -0 0"]
+"fourth_top_medium_art_joint" -> "fourth_leg_top_art"
+"base_link" -> "second_art_base_joint" [label="xyz: 0 -0.115 0.055 \nrpy: 0 -0 0"]
+"second_art_base_joint" -> "second_leg_art"
+"second_leg_art" -> "second_art_leg_joint" [label="xyz: 0 -0.05 -0.01 \nrpy: 0 -0 0"]
+"second_art_leg_joint" -> "second_leg_base"
+"second_leg_base" -> "second_medium_base_joint_fixed" [label="xyz: 0 -0.05 0.0252 \nrpy: 0 -0 0"]
+"second_medium_base_joint_fixed" -> "second_leg_medium"
+"second_leg_medium" -> "second_medium_base_joint" [label="xyz: 0.03 0 0.02 \nrpy: 0 1.5708 -0"]
+"second_medium_base_joint" -> "second_leg_medium_circle"
+"second_leg_medium_circle" -> "second_medium_base_art_joint" [label="xyz: -0.07 0 0.015 \nrpy: 0 1.5708 -0"]
+"second_medium_base_art_joint" -> "second_leg_medium_art"
+"second_leg_medium_art" -> "second_top_medium_circle_joint" [label="xyz: -0.015 0 -0.055 \nrpy: 0 1.5708 -0"]
+"second_top_medium_circle_joint" -> "second_leg_top_circle"
+"second_leg_top_circle" -> "second_top_medium_art_joint" [label="xyz: 0.1 0 -0.015 \nrpy: 0 1.5708 -0"]
+"second_top_medium_art_joint" -> "second_leg_top_art"
+"base_link" -> "third_art_base_joint" [label="xyz: 0.115 0 0.055 \nrpy: 0 -0 0"]
+"third_art_base_joint" -> "third_leg_art"
+"third_leg_art" -> "third_art_base_leg_joint" [label="xyz: 0.05 0 -0.01 \nrpy: 0 -0 0"]
+"third_art_base_leg_joint" -> "third_leg_base"
+"third_leg_base" -> "third_medium_base_joint_fixed" [label="xyz: 0.05 0 0.0252 \nrpy: 0 -0 0"]
+"third_medium_base_joint_fixed" -> "third_leg_medium"
+"third_leg_medium" -> "third_medium_base_joint" [label="xyz: 0 0.03 0.02 \nrpy: 1.5708 -0 0"]
+"third_medium_base_joint" -> "third_leg_medium_circle"
+"third_leg_medium_circle" -> "third_medium_base_art_joint" [label="xyz: 0 0.07 -0.015 \nrpy: 1.5708 -0 0"]
+"third_medium_base_art_joint" -> "third_leg_medium_art"
+"third_leg_medium_art" -> "third_top_medium_circle_joint" [label="xyz: 0 0.015 -0.055 \nrpy: 1.5708 -0 0"]
+"third_top_medium_circle_joint" -> "third_leg_top_circle"
+"third_leg_top_circle" -> "third_top_medium_art_joint" [label="xyz: 0 -0.1 -0.015 \nrpy: 1.5708 -0 0"]
+"third_top_medium_art_joint" -> "third_leg_top_art"
+}

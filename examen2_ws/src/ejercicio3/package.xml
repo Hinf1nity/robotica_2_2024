@@ -3,12 +3,34 @@
 <package format="3">
   <name>ejercicio3</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>
+  Desarrolla un programa en C++ que controle el brazo robótico Panda mediante MoveIt!
+  para realizar movimientos a dos posiciones objetivo específicas. El programa debe utilizar
+  la siguiente configuración de posiciones:
+    Posición 1:
+      Orientación: w = 1.0
+      Posición: x = -0.58, y = 0.2, z = 0.5
+    Posición 2:
+      Orientación: w = 0.0
+      Posición: x = 0.1, y = 0.1, z = 0.7
+  El programa debe contar con un menú interactivo que se repita de forma recurrente,
+  permitiendo al usuario seleccionar 3 opciones, entre ellas la opción de salir.
+  La estructura del código debe utilizar la clase MoveGroupInterface de MoveIt! para
+  controlar el brazo y realizar los movimientos de forma planificada. Asegúrate de
+  implementar correctamente la creación de la planificación y la ejecución de los
+  movimientos.
+  </description>
   <maintainer email="dacalvimontes@gmail.com">hinfinity</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 

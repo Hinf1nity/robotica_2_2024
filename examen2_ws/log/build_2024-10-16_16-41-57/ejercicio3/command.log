@@ -1,0 +1,4 @@
+Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3 -- -j12 -l12
+Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3 -- -j12 -l12
+Invoking command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3
+Invoked command in '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3

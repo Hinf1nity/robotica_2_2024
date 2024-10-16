@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/ejercicio4/ejercicio4.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejercicio4/ejercicio4.egg-info/dependency_links.txt
+writing entry points to ../../build/ejercicio4/ejercicio4.egg-info/entry_points.txt
+writing requirements to ../../build/ejercicio4/ejercicio4.egg-info/requires.txt
+writing top-level names to ../../build/ejercicio4/ejercicio4.egg-info/top_level.txt
+reading manifest file '../../build/ejercicio4/ejercicio4.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ejercicio4/ejercicio4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ejercicio4/pruebas.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4
+copying ejercicio4/nodo_odom.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4
+copying ejercicio4/giro_90.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4
+copying ejercicio4/nodo_map.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4
+copying ejercicio4/explorador.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4
+running install
+running install_lib
+copying /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4/pruebas.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4
+copying /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4/nodo_odom.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4
+copying /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4/giro_90.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4
+copying /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4/nodo_map.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4
+copying /home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/build/lib/ejercicio4/explorador.py -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4
+byte-compiling /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4/pruebas.py to pruebas.cpython-310.pyc
+byte-compiling /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4/nodo_odom.py to nodo_odom.cpython-310.pyc
+byte-compiling /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4/giro_90.py to giro_90.cpython-310.pyc
+byte-compiling /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4/nodo_map.py to nodo_map.cpython-310.pyc
+byte-compiling /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4/explorador.py to explorador.cpython-310.pyc
+running install_data
+copying package.xml -> /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/share/ejercicio4
+running install_egg_info
+removing '/home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ejercicio4/ejercicio4.egg-info to /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/python3.10/site-packages/ejercicio4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing explorador script to /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/ejercicio4
+Installing giro_90 script to /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/ejercicio4
+Installing nodo_map script to /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/ejercicio4
+Installing nodo_odom script to /home/integralmilk03/robotica_2_2024/examen2_ws/install/ejercicio4/lib/ejercicio4
+writing list of installed files to '/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio4/install.log'

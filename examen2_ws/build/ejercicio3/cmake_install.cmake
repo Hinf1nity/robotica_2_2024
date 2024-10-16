@@ -43,6 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ejercicio3" TYPE DIRECTORY FILES
+    "/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio3/launch"
+    "/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio3/urdf"
+    "/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio3/rviz"
+    "/home/integralmilk03/robotica_2_2024/examen2_ws/src/ejercicio3/meshes"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/integralmilk03/robotica_2_2024/examen2_ws/build/ejercicio3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ejercicio3")
 endif()
 
