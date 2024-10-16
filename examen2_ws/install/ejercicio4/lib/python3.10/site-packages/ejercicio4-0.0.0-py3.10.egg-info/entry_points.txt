@@ -1,3 +1,6 @@
 [console_scripts]
-
+explorador = ejercicio4.explorador:main
+giro_90 = ejercicio4.giro_90:main
+nodo_map = ejercicio4.nodo_map:main
+nodo_odom = ejercicio4.nodo_odom:main
 

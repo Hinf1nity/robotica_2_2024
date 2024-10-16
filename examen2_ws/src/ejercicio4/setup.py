@@ -20,6 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'explorador = ejercicio4.explorador:main',
+            'nodo_odom = ejercicio4.nodo_odom:main',
+            'nodo_map = ejercicio4.nodo_map:main',
+            'giro_90 = ejercicio4.giro_90:main',
         ],
     },
 )

@@ -10,6 +10,11 @@ setup.py
 ../../build/ejercicio4/ejercicio4.egg-info/top_level.txt
 ../../build/ejercicio4/ejercicio4.egg-info/zip-safe
 ejercicio4/__init__.py
+ejercicio4/explorador.py
+ejercicio4/giro_90.py
+ejercicio4/nodo_map.py
+ejercicio4/nodo_odom.py
+ejercicio4/pruebas.py
 resource/ejercicio4
 test/test_copyright.py
 test/test_flake8.py
