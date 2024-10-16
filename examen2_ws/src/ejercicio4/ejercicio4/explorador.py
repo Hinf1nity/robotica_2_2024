@@ -40,7 +40,7 @@ class Explorador(Node):
             else:
                 cmd_vel.linear.x = 0.5
                 # Ajusta el giro de acuerdo con la proximidad a las paredes
-                if left_avg < 0.705:
+                if left_avg < 0.715:
                     # Gira hacia la derecha si está muy cerca de la pared izquierda
                     cmd_vel.angular.z = 0.275
                 elif right_avg < 0.7:
