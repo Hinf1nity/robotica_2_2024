@@ -1,9 +1,0 @@
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/uninstall.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/custom_panda_uninstall.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/test.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/edit_cache.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/rebuild_cache.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/list_install_components.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/install.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/install/local.dir
-/home/integralmilk03/robotica_2_2024/examen2_ws/build/custom_panda/CMakeFiles/install/strip.dir
