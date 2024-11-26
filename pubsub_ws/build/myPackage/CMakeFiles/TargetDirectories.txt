@@ -1,0 +1,12 @@
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/uninstall.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/myPackage_uninstall.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/pub.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/sub.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/pubsub.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/test.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/edit_cache.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/rebuild_cache.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/list_install_components.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/install.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/install/local.dir
+/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage/CMakeFiles/install/strip.dir

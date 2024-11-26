@@ -1,0 +1,3 @@
+[console_scripts]
+read_camera = camera_vision.read_camera:main
+

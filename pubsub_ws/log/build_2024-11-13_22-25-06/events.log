@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (myPackage) JobQueued: {'identifier': 'myPackage', 'dependencies': OrderedDict()}
+[0.000145] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000161] (myPackage) JobStarted: {'identifier': 'myPackage'}
+[0.009077] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.015187] (myPackage) JobProgress: {'identifier': 'myPackage', 'progress': 'cmake'}
+[0.015440] (myPackage) Command: {'cmd': ['/usr/bin/cmake', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/src/myPackage', '-DCMAKE_INSTALL_PREFIX=/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage'], 'cwd': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hinfinity'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hinfinity'), ('OLDPWD', '/home/hinfinity'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_BO.UTF-8'), ('SYSTEMD_EXEC_PID', '5749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hinfinity'), ('POSH_SESSION_ID', 'd83f0b13-0539-4ea5-ab7d-0b2ad3a4f906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hinfinity'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/hinfinity/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hinfinity/.local/bin'), ('SESSION_MANAGER', 'local/hinfinity-OMEN:@/tmp/.ICE-unix/1967,unix/hinfinity-OMEN:/tmp/.ICE-unix/1967'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80bbbf52_7d4d_4cf5_aa12_bb5d8422b812'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hinfinity/.cache/oh-my-posh/themes/jblab_2021.omp.json'), ('PWD', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099505] (-) TimerEvent: {}
+[0.199701] (-) TimerEvent: {}
+[0.212210] (myPackage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299891] (-) TimerEvent: {}
+[0.362223] (myPackage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.373893] (myPackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399993] (-) TimerEvent: {}
+[0.425148] (myPackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.432116] (myPackage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.432655] (myPackage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.433616] (myPackage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.437249] (myPackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.496070] (myPackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500084] (-) TimerEvent: {}
+[0.502917] (myPackage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.503164] (myPackage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.503553] (myPackage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.511913] (myPackage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600147] (-) TimerEvent: {}
+[0.637530] (myPackage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.651721] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build', 'install', '--record', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'hinfinity', 'LC_TIME': 'es_BO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'POWERLINE_COMMAND': 'oh-my-posh', 'HOME': '/home/hinfinity', 'OLDPWD': '/home/hinfinity', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_BO.UTF-8', 'SYSTEMD_EXEC_PID': '5749', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'hinfinity', 'POSH_SESSION_ID': 'd83f0b13-0539-4ea5-ab7d-0b2ad3a4f906', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hinfinity', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '5.1.16(1)-release', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/hinfinity/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hinfinity/.local/bin', 'SESSION_MANAGER': 'local/hinfinity-OMEN:@/tmp/.ICE-unix/1967,unix/hinfinity-OMEN:/tmp/.ICE-unix/1967', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_BO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/80bbbf52_7d4d_4cf5_aa12_bb5d8422b812', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_BO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.241', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_BO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_BO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_BO.UTF-8', 'OSTYPE': 'linux-gnu', 'QT_IM_MODULE': 'ibus', 'POSH_THEME': '/home/hinfinity/.cache/oh-my-posh/themes/jblab_2021.omp.json', 'PWD': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'LC_NUMERIC': 'es_BO.UTF-8', 'LC_PAPER': 'es_BO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.700228] (-) TimerEvent: {}
+[0.747709] (myPackage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800306] (-) TimerEvent: {}
+[0.808832] (myPackage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.815880] (myPackage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.828293] (myPackage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.844049] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.844485] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.844608] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.844727] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.844836] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.844925] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.844996] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.845116] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.846236] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.846363] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.846764] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.846838] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.846898] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.846965] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build\n'}
+[0.847036] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib\n'}
+[0.847112] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.847164] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.847239] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/pubsub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.847419] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/pub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.847507] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/sub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.847652] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.847940] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.848546] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.848636] (py_pubsub) StdoutLine: {'line': b'copying /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.848738] (py_pubsub) StdoutLine: {'line': b'copying /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub/pubsub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.848816] (py_pubsub) StdoutLine: {'line': b'copying /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub/pub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.848863] (py_pubsub) StdoutLine: {'line': b'copying /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/build/lib/py_pubsub/sub_py.py -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849231] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.849350] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/pubsub_py.py to pubsub_py.cpython-310.pyc\n'}
+[0.849493] (myPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.849605] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/pub_py.py to pub_py.cpython-310.pyc\n'}
+[0.849855] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/sub_py.py to sub_py.cpython-310.pyc\n'}
+[0.850148] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.850333] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/share/ament_index\n'}
+[0.850415] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.850477] (py_pubsub) StdoutLine: {'line': b'creating /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.850530] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.850623] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/share/py_pubsub\n'}
+[0.850678] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.851662] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.852329] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.868527] (py_pubsub) StdoutLine: {'line': b'Installing listener_py script to /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.868862] (py_pubsub) StdoutLine: {'line': b'Installing talker_listener_py script to /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.868941] (py_pubsub) StdoutLine: {'line': b'Installing talker_py script to /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.869111] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/py_pubsub/install.log'\n"}
+[0.872187] (myPackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.885587] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.900374] (-) TimerEvent: {}
+[0.902536] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.939773] (myPackage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.944024] (myPackage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000459] (-) TimerEvent: {}
+[1.035521] (myPackage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.058510] (myPackage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.088652] (myPackage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.100579] (-) TimerEvent: {}
+[1.102386] (myPackage) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.172160] (myPackage) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.172466] (myPackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200674] (-) TimerEvent: {}
+[1.227437] (myPackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.228428] (myPackage) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300749] (-) TimerEvent: {}
+[1.313903] (myPackage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.358925] (myPackage) StderrLine: {'line': b'WARNING: Package name "myPackage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.388917] (myPackage) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.389059] (myPackage) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.389119] (myPackage) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.390272] (myPackage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.391609] (myPackage) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.391669] (myPackage) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.392292] (myPackage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.393879] (myPackage) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.400844] (-) TimerEvent: {}
+[1.403621] (myPackage) StdoutLine: {'line': b'-- Generating done\n'}
+[1.404790] (myPackage) StdoutLine: {'line': b'-- Build files have been written to: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage\n'}
+[1.410280] (myPackage) CommandEnded: {'returncode': 0}
+[1.410779] (myPackage) JobProgress: {'identifier': 'myPackage', 'progress': 'build'}
+[1.411368] (myPackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage', '--', '-j12', '-l12'], 'cwd': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hinfinity'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hinfinity'), ('OLDPWD', '/home/hinfinity'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_BO.UTF-8'), ('SYSTEMD_EXEC_PID', '5749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hinfinity'), ('POSH_SESSION_ID', 'd83f0b13-0539-4ea5-ab7d-0b2ad3a4f906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hinfinity'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/hinfinity/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hinfinity/.local/bin'), ('SESSION_MANAGER', 'local/hinfinity-OMEN:@/tmp/.ICE-unix/1967,unix/hinfinity-OMEN:/tmp/.ICE-unix/1967'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80bbbf52_7d4d_4cf5_aa12_bb5d8422b812'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hinfinity/.cache/oh-my-posh/themes/jblab_2021.omp.json'), ('PWD', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.446841] (myPackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[1.447017] (myPackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o\x1b[0m\n'}
+[1.447185] (myPackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[1.500940] (-) TimerEvent: {}
+[1.601170] (-) TimerEvent: {}
+[1.701415] (-) TimerEvent: {}
+[1.801751] (-) TimerEvent: {}
+[1.901991] (-) TimerEvent: {}
+[2.002257] (-) TimerEvent: {}
+[2.102473] (-) TimerEvent: {}
+[2.202731] (-) TimerEvent: {}
+[2.302988] (-) TimerEvent: {}
+[2.403234] (-) TimerEvent: {}
+[2.503507] (-) TimerEvent: {}
+[2.603766] (-) TimerEvent: {}
+[2.704056] (-) TimerEvent: {}
+[2.804277] (-) TimerEvent: {}
+[2.904556] (-) TimerEvent: {}
+[3.004808] (-) TimerEvent: {}
+[3.105067] (-) TimerEvent: {}
+[3.205385] (-) TimerEvent: {}
+[3.305644] (-) TimerEvent: {}
+[3.405915] (-) TimerEvent: {}
+[3.506141] (-) TimerEvent: {}
+[3.606370] (-) TimerEvent: {}
+[3.706635] (-) TimerEvent: {}
+[3.806898] (-) TimerEvent: {}
+[3.907135] (-) TimerEvent: {}
+[4.007378] (-) TimerEvent: {}
+[4.107599] (-) TimerEvent: {}
+[4.207860] (-) TimerEvent: {}
+[4.308139] (-) TimerEvent: {}
+[4.408360] (-) TimerEvent: {}
+[4.508609] (-) TimerEvent: {}
+[4.608861] (-) TimerEvent: {}
+[4.709115] (-) TimerEvent: {}
+[4.809334] (-) TimerEvent: {}
+[4.909582] (-) TimerEvent: {}
+[5.009803] (-) TimerEvent: {}
+[5.110076] (-) TimerEvent: {}
+[5.210345] (-) TimerEvent: {}
+[5.310610] (-) TimerEvent: {}
+[5.370297] (myPackage) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[5.410887] (-) TimerEvent: {}
+[5.511133] (-) TimerEvent: {}
+[5.547727] (myPackage) StdoutLine: {'line': b'[ 66%] Built target pub\n'}
+[5.611220] (-) TimerEvent: {}
+[5.711465] (-) TimerEvent: {}
+[5.811716] (-) TimerEvent: {}
+[5.912033] (-) TimerEvent: {}
+[6.012335] (-) TimerEvent: {}
+[6.112569] (-) TimerEvent: {}
+[6.212804] (-) TimerEvent: {}
+[6.313066] (-) TimerEvent: {}
+[6.413272] (-) TimerEvent: {}
+[6.513501] (-) TimerEvent: {}
+[6.613710] (-) TimerEvent: {}
+[6.713967] (-) TimerEvent: {}
+[6.814201] (-) TimerEvent: {}
+[6.914441] (-) TimerEvent: {}
+[7.014681] (-) TimerEvent: {}
+[7.114916] (-) TimerEvent: {}
+[7.215134] (-) TimerEvent: {}
+[7.315363] (-) TimerEvent: {}
+[7.415603] (-) TimerEvent: {}
+[7.515843] (-) TimerEvent: {}
+[7.616135] (-) TimerEvent: {}
+[7.716376] (-) TimerEvent: {}
+[7.816624] (-) TimerEvent: {}
+[7.916829] (-) TimerEvent: {}
+[8.017072] (-) TimerEvent: {}
+[8.117274] (-) TimerEvent: {}
+[8.217512] (-) TimerEvent: {}
+[8.317790] (-) TimerEvent: {}
+[8.418009] (-) TimerEvent: {}
+[8.518318] (-) TimerEvent: {}
+[8.541422] (myPackage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[8.618426] (-) TimerEvent: {}
+[8.718675] (-) TimerEvent: {}
+[8.751401] (myPackage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pubsub\x1b[0m\n'}
+[8.818373] (myPackage) StdoutLine: {'line': b'[100%] Built target sub\n'}
+[8.818804] (-) TimerEvent: {}
+[8.919031] (-) TimerEvent: {}
+[9.019249] (-) TimerEvent: {}
+[9.024020] (myPackage) StdoutLine: {'line': b'[100%] Built target pubsub\n'}
+[9.031736] (myPackage) CommandEnded: {'returncode': 0}
+[9.052673] (myPackage) JobProgress: {'identifier': 'myPackage', 'progress': 'install'}
+[9.058778] (myPackage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage'], 'cwd': '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', 'false'), ('USER', 'hinfinity'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('HOME', '/home/hinfinity'), ('OLDPWD', '/home/hinfinity'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_BO.UTF-8'), ('SYSTEMD_EXEC_PID', '5749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hinfinity'), ('POSH_SESSION_ID', 'd83f0b13-0539-4ea5-ab7d-0b2ad3a4f906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hinfinity'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('POSH_SHELL_VERSION', '5.1.16(1)-release'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/hinfinity/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hinfinity/.local/bin'), ('SESSION_MANAGER', 'local/hinfinity-OMEN:@/tmp/.ICE-unix/1967,unix/hinfinity-OMEN:/tmp/.ICE-unix/1967'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80bbbf52_7d4d_4cf5_aa12_bb5d8422b812'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('OSTYPE', 'linux-gnu'), ('QT_IM_MODULE', 'ibus'), ('POSH_THEME', '/home/hinfinity/.cache/oh-my-posh/themes/jblab_2021.omp.json'), ('PWD', '/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/build/myPackage'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.064354] (myPackage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.064523] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pub\n'}
+[9.065387] (myPackage) StdoutLine: {'line': b'-- Set runtime path of "/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pub" to ""\n'}
+[9.065479] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/sub\n'}
+[9.067515] (myPackage) StdoutLine: {'line': b'-- Set runtime path of "/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/sub" to ""\n'}
+[9.067664] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pubsub\n'}
+[9.069473] (myPackage) StdoutLine: {'line': b'-- Set runtime path of "/home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pubsub" to ""\n'}
+[9.069655] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/package_run_dependencies/myPackage\n'}
+[9.069735] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/parent_prefix_path/myPackage\n'}
+[9.069865] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/ament_prefix_path.sh\n'}
+[9.069959] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/ament_prefix_path.dsv\n'}
+[9.070037] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/path.sh\n'}
+[9.070168] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/path.dsv\n'}
+[9.070221] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.bash\n'}
+[9.070298] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.sh\n'}
+[9.070350] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.zsh\n'}
+[9.070415] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.dsv\n'}
+[9.070481] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/package.dsv\n'}
+[9.070574] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/packages/myPackage\n'}
+[9.070662] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/cmake/myPackageConfig.cmake\n'}
+[9.070721] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/cmake/myPackageConfig-version.cmake\n'}
+[9.070782] (myPackage) StdoutLine: {'line': b'-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/package.xml\n'}
+[9.072160] (myPackage) CommandEnded: {'returncode': 0}
+[9.105629] (myPackage) JobEnded: {'identifier': 'myPackage', 'rc': 0}
+[9.106277] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[100%] Built target sub
+[ 83%] Built target pub
+[100%] Built target pubsub
+-- Install configuration: ""
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pub
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/sub
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/lib/myPackage/pubsub
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/package_run_dependencies/myPackage
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/parent_prefix_path/myPackage
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/path.sh
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/environment/path.dsv
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.bash
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.sh
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.zsh
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/local_setup.dsv
+-- Installing: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/package.dsv
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/ament_index/resource_index/packages/myPackage
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/cmake/myPackageConfig.cmake
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/cmake/myPackageConfig-version.cmake
+-- Up-to-date: /home/hinfinity/Documents/robotica_2_2024/pubsub_ws/install/myPackage/share/myPackage/package.xml

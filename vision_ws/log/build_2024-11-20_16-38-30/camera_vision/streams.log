@@ -1,0 +1,37 @@
+[0.545s] Invoking command in '/home/hinfinity/Documents/robotica_2_2024/vision_ws/src/camera_vision': PYTHONPATH=/home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_vision build --build-base /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build install --record /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/install.log --single-version-externally-managed install_data
+[0.731s] running egg_info
+[0.732s] creating ../../build/camera_vision/camera_vision.egg-info
+[0.732s] writing ../../build/camera_vision/camera_vision.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../../build/camera_vision/camera_vision.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../../build/camera_vision/camera_vision.egg-info/entry_points.txt
+[0.733s] writing requirements to ../../build/camera_vision/camera_vision.egg-info/requires.txt
+[0.733s] writing top-level names to ../../build/camera_vision/camera_vision.egg-info/top_level.txt
+[0.733s] writing manifest file '../../build/camera_vision/camera_vision.egg-info/SOURCES.txt'
+[0.734s] reading manifest file '../../build/camera_vision/camera_vision.egg-info/SOURCES.txt'
+[0.734s] adding license file 'LICENSE'
+[0.735s] writing manifest file '../../build/camera_vision/camera_vision.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build
+[0.735s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib
+[0.735s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib/camera_vision
+[0.736s] copying camera_vision/__init__.py -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib/camera_vision
+[0.736s] copying camera_vision/read_camera.py -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib/camera_vision
+[0.736s] running install
+[0.736s] running install_lib
+[0.737s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision
+[0.737s] copying /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib/camera_vision/__init__.py -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision
+[0.737s] copying /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build/lib/camera_vision/read_camera.py -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision
+[0.737s] byte-compiling /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision/__init__.py to __init__.cpython-310.pyc
+[0.737s] byte-compiling /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision/read_camera.py to read_camera.cpython-310.pyc
+[0.738s] running install_data
+[0.738s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/share/ament_index
+[0.738s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/share/ament_index/resource_index
+[0.738s] creating /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/share/ament_index/resource_index/packages
+[0.738s] copying resource/camera_vision -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/share/ament_index/resource_index/packages
+[0.738s] copying package.xml -> /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/share/camera_vision
+[0.738s] running install_egg_info
+[0.740s] Copying ../../build/camera_vision/camera_vision.egg-info to /home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision-0.0.0-py3.10.egg-info
+[0.740s] running install_scripts
+[0.756s] writing list of installed files to '/home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/install.log'
+[0.771s] Invoked command in '/home/hinfinity/Documents/robotica_2_2024/vision_ws/src/camera_vision' returned '0': PYTHONPATH=/home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_vision build --build-base /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/build install --record /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/camera_vision/install.log --single-version-externally-managed install_data
