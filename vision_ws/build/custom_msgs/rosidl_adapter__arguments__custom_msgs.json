@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_msgs",
-  "non_idl_tuples": [
-    "/home/hinfinity/Documents/robotica_2_2024/vision_ws/src/custom_msgs:msg/Corner.msg",
-    "/home/hinfinity/Documents/robotica_2_2024/vision_ws/src/custom_msgs:msg/Box.msg"
-  ]
-}

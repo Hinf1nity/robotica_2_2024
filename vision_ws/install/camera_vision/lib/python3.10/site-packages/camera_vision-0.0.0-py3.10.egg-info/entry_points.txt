@@ -1,4 +1,0 @@
-[console_scripts]
-examen_3 = camera_vision.examen_3:main
-read_camera = camera_vision.read_camera:main
-

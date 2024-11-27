@@ -1,5 +1,0 @@
-  File "/home/hinfinity/Documents/robotica_2_2024/vision_ws/install/camera_vision/lib/python3.10/site-packages/camera_vision/examen_3.py", line 8
-    from ./ArucoDistanceEstimator import ArUcoDistanceEstimator
-          ^
-SyntaxError: invalid syntax
-
