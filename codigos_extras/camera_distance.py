@@ -3,7 +3,7 @@ import numpy as np
 
 # Constantes
 KNOWN_DISTANCE = 20.0  # cm, distancia deseada
-MARKER_SIZE = 6.5  # cm, tamaño real del marcador ArUco
+MARKER_SIZE = 17.8  # cm, tamaño real del marcador ArUco
 
 # Inicializa el diccionario de ArUco
 aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)

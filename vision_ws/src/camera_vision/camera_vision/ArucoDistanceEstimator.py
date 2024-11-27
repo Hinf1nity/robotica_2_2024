@@ -99,7 +99,7 @@ class ArUcoDistanceEstimator:
                 distance = 0.685 * distance - 2.136
 
                 # Verificar si está cerca de 20 cm
-                if abs(distance - self.KNOWN_DISTANCE) <= 2.0:
+                if distance <= self.KNOWN_DISTANCE + 1:
                     print(
                         f"El marcador {ids[0][0]} está a aproximadamente 20 cm.")
                     return ids[0][0]

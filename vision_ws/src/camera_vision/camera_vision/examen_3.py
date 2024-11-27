@@ -28,7 +28,7 @@ class ImageSubscriber(Node):
 
         # pipeline
         action = self.estimator.process_frame_distance_ids(current_frame)
-        # current_frame = self.estimator.process_frame(current_frame)
+        current_frame = self.estimator.process_frame(current_frame)
 
         msg = Int32()
         msg.data = int(action)
