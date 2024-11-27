@@ -223,11 +223,16 @@ CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fas
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/malloc.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__functions.h \
   /usr/include/c++/11/stdlib.h \
   rosidl_generator_c/custom_msgs/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h
+  rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
 
 CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/corner__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/corner__type_support_c.cpp \
   /usr/include/stdc-predef.h \
@@ -459,6 +464,12 @@ CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fas
 /usr/include/c++/11/stdlib.h:
 
 rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -892,6 +903,8 @@ rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/box__type_support_c.cpp:
 
 /usr/include/c++/11/cstdlib:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h:
+
 /usr/include/strings.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
@@ -907,6 +920,8 @@ rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/box__type_support_c.cpp:
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 

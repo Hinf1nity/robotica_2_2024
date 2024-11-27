@@ -65,7 +65,17 @@ CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesuppor
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/rosidl_generator_c__visibility_control.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__struct.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/corner.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__type_support.h

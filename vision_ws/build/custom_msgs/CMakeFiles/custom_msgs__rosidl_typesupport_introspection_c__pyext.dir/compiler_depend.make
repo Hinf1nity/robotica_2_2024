@@ -248,8 +248,14 @@ CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gen
   rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__type_support.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__functions.h
 
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/custom_msgs/msg/detail/box__struct.h:
 
@@ -264,6 +270,8 @@ rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h:
 /usr/include/python3.10/eval.h:
 
 /usr/include/python3.10/cpython/import.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 /usr/include/python3.10/import.h:
 
@@ -300,6 +308,8 @@ rosidl_generator_c/custom_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -388,6 +398,8 @@ rosidl_generator_c/custom_msgs/msg/detail/corner__type_support.h:
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 

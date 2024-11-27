@@ -9,7 +9,9 @@ setup.py
 ../../build/camera_vision/camera_vision.egg-info/requires.txt
 ../../build/camera_vision/camera_vision.egg-info/top_level.txt
 ../../build/camera_vision/camera_vision.egg-info/zip-safe
+camera_vision/ArucoDistanceEstimator.py
 camera_vision/__init__.py
+camera_vision/examen_3.py
 camera_vision/read_camera.py
 resource/camera_vision
 test/test_copyright.py

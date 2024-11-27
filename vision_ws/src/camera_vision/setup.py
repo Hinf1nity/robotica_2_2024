@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'read_camera = camera_vision.read_camera:main',
+                'examen_3 = camera_vision.examen_3:main',
         ],
     },
 )

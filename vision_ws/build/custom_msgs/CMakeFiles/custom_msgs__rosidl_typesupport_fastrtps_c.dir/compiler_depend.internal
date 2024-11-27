@@ -224,11 +224,16 @@ CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fas
  /usr/include/c++/11/bits/istream.tcc
  /usr/include/malloc.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__struct.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__functions.h
  /usr/include/c++/11/stdlib.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/rosidl_generator_c__visibility_control.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
 
 CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/corner__type_support_c.cpp.o
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/corner__type_support_c.cpp

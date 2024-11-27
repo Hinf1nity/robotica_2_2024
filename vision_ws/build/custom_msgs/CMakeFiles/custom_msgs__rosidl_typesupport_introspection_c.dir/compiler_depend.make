@@ -64,7 +64,17 @@ CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesuppor
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/custom_msgs/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/custom_msgs/msg/detail/box__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/header.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
   rosidl_generator_c/custom_msgs/msg/corner.h \
   rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h \
   rosidl_generator_c/custom_msgs/msg/detail/corner__type_support.h \
@@ -139,9 +149,23 @@ rosidl_typesupport_introspection_c/custom_msgs/msg/detail/corner__type_support.c
 
 rosidl_generator_c/custom_msgs/msg/detail/corner__type_support.h:
 
-rosidl_generator_c/custom_msgs/msg/corner.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/header.h:
 
 rosidl_generator_c/custom_msgs/msg/detail/corner__struct.h:
+
+rosidl_generator_c/custom_msgs/msg/corner.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 rosidl_generator_c/custom_msgs/msg/detail/box__struct.h:
 
@@ -179,6 +203,8 @@ rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /usr/include/stdlib.h:
@@ -198,6 +224,8 @@ rosidl_typesupport_introspection_c/custom_msgs/msg/detail/box__rosidl_typesuppor
 /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h:
 
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -262,6 +290,8 @@ rosidl_generator_c/custom_msgs/msg/detail/box__functions.h:
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 

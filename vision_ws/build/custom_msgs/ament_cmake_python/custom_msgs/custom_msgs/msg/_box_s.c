@@ -22,6 +22,10 @@
 // Nested array functions includes
 #include "custom_msgs/msg/detail/corner__functions.h"
 // end nested array functions include
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 bool custom_msgs__msg__corner__convert_from_py(PyObject * _pymsg, void * _ros_message);
 PyObject * custom_msgs__msg__corner__convert_to_py(void * raw_ros_message);
 bool custom_msgs__msg__corner__convert_from_py(PyObject * _pymsg, void * _ros_message);
@@ -60,6 +64,17 @@ bool custom_msgs__msg__box__convert_from_py(PyObject * _pymsg, void * _ros_messa
     assert(strncmp("custom_msgs.msg._box.Box", full_classname_dest, 24) == 0);
   }
   custom_msgs__msg__Box * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // centre
     PyObject * field = PyObject_GetAttrString(_pymsg, "centre");
     if (!field) {
@@ -126,6 +141,20 @@ PyObject * custom_msgs__msg__box__convert_to_py(void * raw_ros_message)
     }
   }
   custom_msgs__msg__Box * ros_message = (custom_msgs__msg__Box *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // centre
     PyObject * field = NULL;
     field = custom_msgs__msg__corner__convert_to_py(&ros_message->centre);

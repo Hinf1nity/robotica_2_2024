@@ -249,5 +249,9 @@ CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gen
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/corner__functions.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__type_support.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__struct.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /home/hinfinity/Documents/robotica_2_2024/vision_ws/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/box__functions.h
 
