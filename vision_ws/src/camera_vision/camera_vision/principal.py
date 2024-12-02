@@ -13,7 +13,7 @@ class Principal(Node):
             self.listener_callback,
             10)
         self.subscription
-        self.ser = serial.Serial('/dev/ttyACM0', 9600)
+        self.ser = serial.Serial('/dev/ttyUSB0', 115200)
         self.flag = True
 
     def listener_callback(self, msg):
