@@ -3,7 +3,7 @@ import numpy as np
 
 # Constantes
 KNOWN_DISTANCE = 20.0  # cm, distancia deseada
-MARKER_SIZE = 17.8  # cm, tamaño real del marcador ArUco
+MARKER_SIZE = 6.6  # cm, tamaño real del marcador ArUco
 
 # Inicializa el diccionario de ArUco
 aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
@@ -11,12 +11,19 @@ arucoParameters = cv2.aruco.DetectorParameters()
 detector = cv2.aruco.ArucoDetector(aruco_dict, arucoParameters)
 
 # Calibración de la cámara (valores de ejemplo; reemplaza con los tuyos)
-camera_matrix = np.array([[1080, 0, 540],
-                          [0, 1080, 360],
-                          [0, 0, 1]], dtype=np.float32)
+# camera_matrix = np.array([[1080, 0, 540],
+#                          [0, 1080, 360],
+#                          [0, 0, 1]], dtype=np.float32)
 # Ajusta esto si tienes datos reales de distorsión
-dist_coeffs = np.zeros((4, 1), dtype=np.float32)
+# dist_coeffs = np.zeros((4, 1), dtype=np.float32)
 
+camera_matrix = np.array([[15.48556653, 0., 201.33055679],
+                          [0., 100.87375166, 253.52028059],
+                          [0., 0., 1.]])
+
+
+dist_coeffs = np.array(
+    [[0.21498611, 0.01912023, -0.01760875, 0.29137266, -0.00325566]])
 # Función personalizada para estimar pose
 
 
@@ -72,7 +79,7 @@ while True:
             # Calcular la distancia
             distance = estimate_distance(tvec)
 
-            distance = 0.685*distance - 2.136
+            # distance = 0.685*distance - 2.136
 
             # Mostrar la distancia en la imagen
             cv2.putText(frame, f"Distance: {distance:.2f} cm", (10, 30),
