@@ -29,12 +29,22 @@
   <link name="base_link">
 
 
-    </link>
+  </link>
+
+  <!-- Base_Footprint Link -->
+  <joint name="base_footprint_joint" type="fixed">
+    <origin xyz="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+  </joint>
+
+  <link name="base_footprint">
+  </link>
 
   <!-- Chassis Link -->
 
   <joint name="chassis_joint" type="fixed">
-    <origin xyz="-0.1 0 -0.0175"/>
+    <origin xyz="-0.1 0 -0.00875"/> <!-- -0.1 0 -0.0175 -->
     <parent link="base_link"/>
     <child link="chassis"/>
     </joint>

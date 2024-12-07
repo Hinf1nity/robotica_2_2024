@@ -18,7 +18,7 @@ find_package(controller_manager REQUIRED)
 include_directories(${rclcpp_INCLUDE_DIRS} ${hardware_interface_INCLUDE_DIRS}
                     ${ros2_control_INCLUDE_DIRS})
 
-add_library(diff_drive_hardware SHARED src/diff_drive_hardware.cpp)
+add_library(diff_drive_hardware SHARED src/DiffDriver.cpp)
 ament_target_dependencies(diff_drive_hardware rclcpp hardware_interface
                           pluginlib ros2_control controller_manager)
 pluginlib_export_plugin_description_file(hardware_interface

@@ -22,18 +22,6 @@ diff_cont:
 
     use_stamped_vel: false
 
-    # Parámetros min y max para las velocidades
-    left_wheel_joint:
-      command_interface:
-        velocity:
-          min: -10.0
-          max: 10.0
-    right_wheel_joint:
-      command_interface:
-        velocity:
-          min: -10.0
-          max: 10.0
-
     # open_loop: false
 
     # wheels_per_side: x
