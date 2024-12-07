@@ -18,6 +18,7 @@ Ingresar a la carpeta proyecto y ejecutar el siguiente comando:
 ```bash
 cd proyecto_final_ws
 colcon build --symlink-install
+. install/setup.bash
 ```
 
 Para ejecutar el proyecto en modo simulacion:
