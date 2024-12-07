@@ -16,6 +16,7 @@ sudo apt install ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-nav2-
 Ingresar a la carpeta proyecto y ejecutar el siguiente comando:
 
 ```bash
+cd proyecto_final_ws
 colcon build --symlink-install
 ```
 
@@ -86,4 +87,3 @@ ros2 launch padoru navigation_launch.py use_sim_time:=true map_subscribee_tansie
 ```
 
 Si se desea realizar los comandos con un robot real solo cambie use_sim_tme:=true por use_sim_time:=false o elimine esta parte del comando.
-
