@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
     update_rate: 30
-    use_sim_time: true
+    #use_sim_time: true
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
@@ -21,6 +21,18 @@ diff_cont:
     wheel_radius: 0.0325
 
     use_stamped_vel: false
+
+    # Parámetros min y max para las velocidades
+    left_wheel_joint:
+      command_interface:
+        velocity:
+          min: -10.0
+          max: 10.0
+    right_wheel_joint:
+      command_interface:
+        velocity:
+          min: -10.0
+          max: 10.0
 
     # open_loop: false
 

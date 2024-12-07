@@ -7,8 +7,22 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(hardware_interface REQUIRED)
+find_package(pluginlib REQUIRED)
+find_package(ros2_control REQUIRED)
+find_package(controller_manager REQUIRED)
 # uncomment the following section in order to fill in further dependencies
 # manually. find_package(<dependency> REQUIRED)
+
+include_directories(${rclcpp_INCLUDE_DIRS} ${hardware_interface_INCLUDE_DIRS}
+                    ${ros2_control_INCLUDE_DIRS})
+
+add_library(diff_drive_hardware SHARED src/diff_drive_hardware.cpp)
+ament_target_dependencies(diff_drive_hardware rclcpp hardware_interface
+                          pluginlib ros2_control controller_manager)
+pluginlib_export_plugin_description_file(hardware_interface
+                                         plugin_description.xml)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -24,5 +38,9 @@ endif()
 
 install(DIRECTORY config description launch worlds
         DESTINATION share/${PROJECT_NAME}/)
+
+install(TARGETS diff_drive_hardware DESTINATION lib)
+
+install(FILES plugin_description.xml DESTINATION share/${PROJECT_NAME})
 
 ament_package()

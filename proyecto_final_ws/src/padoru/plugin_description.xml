@@ -1,0 +1,5 @@
+<library path="libdiff_drive_hardware">
+  <class name="padoru/DiffDriveHardwareInterface" type="DiffDriveHardware" base_class_type="hardware_interface::SystemInterface">
+    <description>Hardware interface for a differential drive robot</description>
+  </class>
+</library>
