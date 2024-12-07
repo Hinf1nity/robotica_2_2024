@@ -23,6 +23,7 @@ setup(
             'talker_py = py_pubsub.pub_py:main',
             'listener_py = py_pubsub.sub_py:main',
             'talker_listener_py = py_pubsub.pubsub_py:main',
+                'encoder_publisher = py_pubsub.encoder_publiser:main',
         ],
     },
 )
