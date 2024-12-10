@@ -6,12 +6,12 @@ DiffDriveHardware::DiffDriveHardware()
       left_velocity_(0.0), right_velocity_(0.0), left_velocity_command_(0.0),
       right_velocity_command_(0.0), left_wheel_velocity_min_(-18.0),
       left_wheel_velocity_max_(18.0), right_wheel_velocity_min_(-18.0),
-      right_wheel_velocity_max_(18.0), time_(std::chrono::system_clock::now()) {
-}
+      right_wheel_velocity_max_(18.0), time_(std::chrono::system_clock::now()),
+      logger_(this->get_logger()) {}
 
 hardware_interface::CallbackReturn
 DiffDriveHardware::on_init(const hardware_interface::HardwareInfo &info) {
-  encoder_sub_ = this->create_subscription<std_msgs::msg::Int8MultiArray>(
+  encoder_sub_ = this->create_subscription<std_msgs::msg::Int32MultiArray>(
       "encoders", 10,
       std::bind(&DiffDriveHardware::encoder_callback, this,
                 std::placeholders::_1));
@@ -62,6 +62,8 @@ DiffDriveHardware::read(const rclcpp::Time &time,
   double dt = diff.count();
   time_ = new_time;
 
+  rclcpp::spin_some(this->get_node_base_interface());
+
   std::lock_guard<std::mutex> lock(encoder_mutex_);
   double pos_prev = left_position_;
   left_position_ = encoder_data_[0] * ENCODER_RESOLUTION;
@@ -93,9 +95,11 @@ DiffDriveHardware::write(const rclcpp::Time &time,
 }
 
 void DiffDriveHardware::encoder_callback(
-    const std_msgs::msg::Int8MultiArray::SharedPtr msg) {
+    const std_msgs::msg::Int32MultiArray::SharedPtr msg) {
   std::lock_guard<std::mutex> lock(encoder_mutex_);
   encoder_data_ = msg->data;
+  RCLCPP_INFO(logger_, "Encoder data: %d, %d", encoder_data_[0],
+              encoder_data_[1]);
 }
 
 #include "pluginlib/class_list_macros.hpp"

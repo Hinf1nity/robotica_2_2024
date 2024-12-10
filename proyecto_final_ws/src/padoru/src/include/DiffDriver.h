@@ -10,7 +10,7 @@
 #include <pluginlib/class_list_macros.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/float32_multi_array.hpp>
-#include <std_msgs/msg/int8_multi_array.hpp>
+#include <std_msgs/msg/int32_multi_array.hpp>
 #include <vector>
 
 class DiffDriveHardware : public hardware_interface::SystemInterface,
@@ -29,12 +29,14 @@ public:
   write(const rclcpp::Time &time, const rclcpp::Duration &period) override;
 
 private:
-  void encoder_callback(const std_msgs::msg::Int8MultiArray::SharedPtr msg);
+  void encoder_callback(const std_msgs::msg::Int32MultiArray::SharedPtr msg);
 
-  rclcpp::Subscription<std_msgs::msg::Int8MultiArray>::SharedPtr encoder_sub_;
+  rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr encoder_sub_;
   rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr velocity_pub_;
+  rclcpp::Logger logger_;
+
   std::mutex encoder_mutex_;
-  std::vector<int8_t> encoder_data_{0, 0};
+  std::vector<int32_t> encoder_data_{0, 0};
 
   double left_position_;
   double right_position_;
@@ -48,7 +50,7 @@ private:
   double right_wheel_velocity_max_;
   std::chrono::time_point<std::chrono::system_clock> time_;
 
-  static constexpr double ENCODER_RESOLUTION = 0.14271;
+  static constexpr double ENCODER_RESOLUTION = 0.004192492;
 };
 
 #endif // DIFF_DRIVE_HARDWARE_HPP

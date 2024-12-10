@@ -79,7 +79,7 @@ class ArUcoDistanceEstimator:
 
         return frame
 
-    def process_frame_distance_ids(self, frame):
+    def process_frame_distance_ids(self, frame, base_action):
         # Convertir a escala de grises
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
@@ -104,7 +104,7 @@ class ArUcoDistanceEstimator:
                         f"El marcador {ids[0][0]} está a aproximadamente 20 cm.")
                     return ids[0][0]
 
-        return 1
+        return base_action
 
     def run(self):
         while True:

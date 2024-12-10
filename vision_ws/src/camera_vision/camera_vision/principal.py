@@ -18,13 +18,13 @@ class Principal(Node):
 
     def listener_callback(self, msg):
         action = msg.data
-        if self.flag and action != 1:
+        if self.flag and action != 5:
             self.enviar_datos(str(action) + '\n')
             self.flag = False
             self.timer = self.create_timer(7, self.timer_callback)
 
     def enviar_datos(self, action):
-        self.ser.write(action)
+        self.ser.write(action.encode())
 
     def timer_callback(self):
         self.flag = True

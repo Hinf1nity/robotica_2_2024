@@ -27,7 +27,7 @@ class ImageSubscriber(Node):
         current_frame = self.br.imgmsg_to_cv2(msg, desired_encoding='bgr8')
 
         # pipeline
-        action = self.estimator.process_frame_distance_ids(current_frame)
+        action = self.estimator.process_frame_distance_ids(current_frame, 5)
         current_frame = self.estimator.process_frame(current_frame)
 
         msg = Int32()
